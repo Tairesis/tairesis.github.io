@@ -8,13 +8,12 @@ body {
 }
 
 header {
-	min-height: 200px;
+	min-height: 230px;
 	background-image: url('imagenes/logo-head.png'); /* Ruta de la imagen de fondo */
 	background-position: center; /* Centra la imagen en el encabezado */
 	background-repeat: no-repeat; /* Evita que la imagen se repita */
 
     color:#8657E8 /* Color del texto en el encabezado */
-    text-align: center; /* Alinea el texto al centro */
 	padding: 100px 0;
 
 }

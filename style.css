@@ -4,7 +4,7 @@ body {
     margin: auto;
     padding: 0;
 	background-color:#0CF;
-	max-width: 1000px; /* Ancho maximo */
+	max-width: 1000px;
 }
 
 header {
@@ -43,7 +43,7 @@ nav a {
 
 .grid {
     display: grid;
-    /*grid-template-columns: repeat(2, 1fr); repetir en 2*/
+    /*grid-template-columns: repeat(2, 1fr);*/
     grid-gap: 20px;
 }
 
@@ -55,4 +55,9 @@ nav a {
 	color: black;
 }
 
-
+/* Estilos para dispositivos móviles 
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}*/

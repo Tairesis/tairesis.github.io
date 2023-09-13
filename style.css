@@ -4,11 +4,11 @@ body {
     margin: auto;
     padding: 0;
 	background-color:#0CF;
-	max-width: 1000px;
+	max-width: 1000px; /* Ancho maximo */
 }
 
 header {
-	min-height: 230px;
+	min-height: 200px;
 	background-image: url('imagenes/logo-head.png'); /* Ruta de la imagen de fondo */
 	background-position: center; /* Centra la imagen en el encabezado */
 	background-repeat: no-repeat; /* Evita que la imagen se repita */
@@ -43,7 +43,7 @@ nav a {
 
 .grid {
     display: grid;
-    /*grid-template-columns: repeat(2, 1fr);*/
+    /*grid-template-columns: repeat(2, 1fr); repetir en 2*/
     grid-gap: 20px;
 }
 
@@ -55,9 +55,4 @@ nav a {
 	color: black;
 }
 
-/* Estilos para dispositivos móviles 
-@media (max-width: 768px) {
-    .grid {
-        grid-template-columns: 1fr;
-    }
-}*/
+

@@ -35,6 +35,10 @@ nav a {
     text-decoration: none;
     color: #fff;
 }
+nav a:hover {
+    color: black;
+	font-weight: bold;
+}
 
 .main {
     max-width: 900px;

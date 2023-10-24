@@ -12,7 +12,6 @@ header {
 	background-image: url('imagenes/logo-head.png'); /* Ruta de la imagen de fondo */
 	background-position: center; /* Centra la imagen en el encabezado */
 	background-repeat: no-repeat; /* Evita que la imagen se repita */
-
     color:#8657E8 /* Color del texto en el encabezado */
 	padding: 100px 0;
 

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masters</title>
+    <style>
+        #carousel-container {
+            width: 400px;
+            height: 290px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        #image-container {
+            width: 300%;
+            display: flex;
+        }
+
+        .imagen-carrusel {
+            width: 400px;
+            height: 290px;
+            object-fit: cover;
+        }
+
+        #prevBtn, #nextBtn {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="carousel-container">
+        <div id="image-container"></div>
+    </div>
+    <button id="prevBtn">Anterior</button>
+    <button id="nextBtn">Siguiente</button>
+
+    <p>
+      <script src="carrusel.js"></script>
+    </p>
+</body>
+</html>
+
+

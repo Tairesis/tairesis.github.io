@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const imagenes = ['galeriaMasters/master1.jpeg', 'galeriaMasters/master2.jpeg', 'galeriaMasters/master3.jpeg', 'galeriaMasters/master4.jpeg', 'galeriaMasters/master5.jpeg'];
+    const imagenes = ['galeriaMasters/master1.jpeg', 'galeriaMasters/master2.jpeg', 'galeriaMasters/master3.jpeg', 'galeriaMasters/master4.jpg', 'galeriaMasters/master5.jpeg'];
     
     const contenedorImagenes = document.getElementById('contenedor-imagenes');
     const btnAnterior = document.getElementById('btnAnterior');
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         contenedorImagenes.style.width = imagenes.length * 100 + 'px';
-        contenedorImagenes.style.transform = 'translateX(' + (-indiceActual * 744) + 'px)';
+        contenedorImagenes.style.transform = 'translateX(' + (-indiceActual * 700) + 'px)';
     }
 
     function siguienteImagen() {

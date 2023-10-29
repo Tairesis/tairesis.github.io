@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         contenedorImagenes.style.width = imagenes.length * 100 + 'px';
-        contenedorImagenes.style.transform = translateX(-indiceActual * 100);
+        contenedorImagenes.style.transform = 'translateX(' + (-indiceActual * 100) + 'px)';
     }
 
     function siguienteImagen() {

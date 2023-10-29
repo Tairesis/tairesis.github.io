@@ -1,13 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Galeria de masters/title>
-<link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-<header>
-<style>
+    <title>Galeria de masters</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
         #carousel-container {
             width: 700px;
             height: 744px;
@@ -15,54 +11,44 @@
             position: relative;
         }
 
-        #image-container {
+        #contenedor-imagenes {
             width: 100%;
             display: flex;
+			overflow: hidden;
         }
 
         .imagen-carrusel {
             width: 700px;
             height: 744px;
-            object-fit: cover;
         }
 
         #prevBtn, #nextBtn {
             cursor: pointer;
         }
     </style>
+</head>
 
-
-
-   </header> 
- <nav>
+<body>
+    <header>
+        <!-- Contenido del encabezado -->
+    </header>
+    <nav>
         <ul>
-            <li><a href="#">Home</a></li>            
+            <li><a href="#">Home</a></li>
             <li><a href="contacto.html">Contacto</a></li>
         </ul>
     </nav>
     <main>
         <section class="grid">
             <div class="section-item">
-            <p>
-            <div id="carousel-container">
-        <div id="image-container"></div>
-    </div>
-    <button id="prevBtn">Anterior</button>
-    <button id="nextBtn">Siguiente</button>
-
-    <p>
-      <script src="carrusel.js"></script>
-    </p>
-            
-            </p>
-            
-            
-            
-            
-            
+                <div id="carousel-container">
+                    <div id="contenedor-imagenes"></div>
+                </div>
+                <button id="btnAnterior">Anterior</button>
+                <button id="btnSiguiente">Siguiente</button>
             </div>
-         </section>
+        </section>
     </main>
-    
+    <script src="carrusel.js"></script>
 </body>
 </html>

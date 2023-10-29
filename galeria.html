@@ -7,6 +7,32 @@
 
 <body>
 <header>
+<style>
+        #carousel-container {
+            width: 700px;
+            height: 744px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        #image-container {
+            width: 100%;
+            display: flex;
+        }
+
+        .imagen-carrusel {
+            width: 700px;
+            height: 744px;
+            object-fit: cover;
+        }
+
+        #prevBtn, #nextBtn {
+            cursor: pointer;
+        }
+    </style>
+
+
+
    </header> 
  <nav>
         <ul>
@@ -18,6 +44,15 @@
         <section class="grid">
             <div class="section-item">
             <p>
+            <div id="carousel-container">
+        <div id="image-container"></div>
+    </div>
+    <button id="prevBtn">Anterior</button>
+    <button id="nextBtn">Siguiente</button>
+
+    <p>
+      <script src="carrusel.js"></script>
+    </p>
             
             </p>
             
